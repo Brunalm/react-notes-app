@@ -1,0 +1,23 @@
+.new-item {
+  align-items: center;
+  color: #696969;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  padding: 13px 5px;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+}
+
+.new-item:hover,
+.new-item.active {
+  background: #dcdcdc;
+  border-right: 2px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.new-item:hover:before,
+.new-item.active:before {
+  display: block;
+}

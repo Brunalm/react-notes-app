@@ -1,0 +1,47 @@
+.notes-container {
+  display: grid;
+  flex: 1;
+  height: 100%;
+  margin: auto;
+  padding: 16px;
+}
+
+.note-content-wrapper {
+  margin: auto;
+  width: 60%;
+}
+
+.text-area {
+  border: none;
+  color: #363636;
+  overflow: hidden;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+.title {
+  border: none;
+  color: #363636;
+  outline: 0px solid transparent;
+  font-size: 40px;
+  margin: 50px 0;
+}
+
+.save-button {
+  background-color: #696969;
+  border: none;
+  border-radius: 5px;
+  bottom: 50px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  position: fixed;
+}
+
+.save-button:hover {
+  background: #363636;
+}
